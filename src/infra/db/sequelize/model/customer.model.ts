@@ -17,7 +17,7 @@ export default class CustomerModel extends Model {
     declare street: string;
 
     @Column({ allowNull: false })
-    declare number: string;
+    declare number: number;
 
     @Column({ allowNull: false })
     declare zipcode: string;
@@ -26,8 +26,8 @@ export default class CustomerModel extends Model {
     declare city: string;
 
     @Column({ allowNull: false })
-    declare active: string;
+    declare active: boolean;
 
     @Column({ allowNull: false })
-    declare rewardPoints: string;
+    declare rewardPoints: number;
 }
