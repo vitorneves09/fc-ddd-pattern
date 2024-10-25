@@ -7,7 +7,7 @@ export default
     implements EventHandlerInterface<ProductCreatedEvent> {
 
     handle(event: EventInterface): void {
-        throw new Error("Sending email to ..............");
+        console.log("Sending email to ..............");
     }
 
 }
